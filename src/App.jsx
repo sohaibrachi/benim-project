@@ -24,7 +24,10 @@ function App() {
          <Route path="/menu" element={<Shop/>} />
          <Route path="/cart" element={<Cart/>} />
          <Route path="/reservation" element={<ReservationPage/>} />
-         <Route path="*" element={<h1 >PAGE NOT FIND 404</h1> } />
+         <Route
+      path="*"
+      element={<h1 style={{ textAlign: 'center', fontSize: '40px' }}>PAGE NOT FOUND 404</h1>}
+    />
          </Routes>
          
          <Footer/>  
