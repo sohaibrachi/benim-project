@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
         <Link to="/about">About</Link>
-        <Link to="/reservation">Reservation</Link>
+        <Link to="/reservation">Reserv</Link>
         <Link to="/cart"> <ShoppingCart size={32} />
          </Link>
 
