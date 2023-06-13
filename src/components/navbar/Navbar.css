@@ -63,11 +63,11 @@
 }
 .navbar #open .hiddenLinks {
   display: inherit;
-  margin-left: 30px;
+  margin-left: 20px;
   
 }
 .navbar #open a {
-  width: 70px;
+  width: 30x;
   margin: 5px;
 }
 .navbar #close img {
@@ -90,7 +90,8 @@
 @media only screen and (max-width: 600px) {
   .navbar .rightSide {
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 0px;
+    width: 0;
     
   }
   .navbar .rightSide a {
@@ -105,6 +106,9 @@
   }
 }
 @media only screen and (min-width: 600px) {
+  .navbar{
+    width: 200px;
+  }
   .navbar .rightSide button {
     display: none;
   }
