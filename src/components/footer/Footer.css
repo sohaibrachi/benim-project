@@ -1,0 +1,51 @@
+/* Footer.css */
+
+.footer {
+  background-color: #272626;
+  color: #fff;
+  padding: 30px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section {
+  flex: 1 1 50%;
+}
+
+.footer__section h2 {
+  margin-bottom: 10px;
+}
+
+.footer__contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.footer__contact-item svg {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer__social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer__social-icons a:hover {
+  color: #e4d2d2;
+}
+
+.footer__bottom {
+  text-align: center;
+  margin-top: 20px;
+}
