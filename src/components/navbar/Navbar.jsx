@@ -16,9 +16,7 @@ function Navbar() {
         <img src={Logo} />
         <div className='hiddenLinks'>
           <Link to="/">Home</Link>
-          <Link to="/menu">Menu</Link>
           <Link to="/about">About</Link>
-          <Link to="/reservation">Reservation</Link>
           <Link to="/cart"> <ShoppingCart size={32} />
          </Link>
 
